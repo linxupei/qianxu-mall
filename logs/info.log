@@ -1,0 +1,575 @@
+2021-03-08 15:41:02.824 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 10944 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 15:41:02.832 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 15:41:04.358 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 15:41:04.359 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 15:41:04.360 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 15:41:04.458 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 15:41:05.292 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 15:41:05.642 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 15:41:05.663 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 15:41:05.701 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 15:41:06.150 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 15:41:06.180 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 3.652 seconds (JVM running for 6.544)
+2021-03-08 15:42:36.160 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 15:42:51.262 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:42:51.262 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:42:51.262 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:42:51.263 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:42:51.264 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@2892aba, UpdateCategoryReq(name=鸭货, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:42:51.270 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+2021-03-08 15:43:27.687 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:43:27.687 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:43:27.687 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:43:27.687 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:43:27.688 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@2892aba, UpdateCategoryReq(name=鸭货, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:43:27.689 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+2021-03-08 15:43:40.020 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/add
+2021-03-08 15:43:40.020 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 15:43:40.020 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:43:40.021 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.addCategory
+2021-03-08 15:43:40.021 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@2892aba, AddCategoryReq(name=鸭货, type=2, parentId=3, orderNum=1)]
+2021-03-08 15:43:40.022 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+2021-03-08 15:44:26.308 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:44:26.308 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:44:26.308 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:44:26.308 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:44:26.308 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@2892aba, UpdateCategoryReq(name=鸭货, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:44:26.309 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+2021-03-08 15:44:37.824 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:44:37.825 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:44:37.825 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:44:37.825 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:44:37.825 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@2892aba, UpdateCategoryReq(name=鸭货, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:44:37.827 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+2021-03-08 15:45:17.603 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 18592 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 15:45:17.607 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 15:45:18.681 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 15:45:18.681 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 15:45:18.682 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 15:45:18.764 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 15:45:19.418 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 15:45:19.726 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 15:45:19.742 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 15:45:19.771 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 15:45:20.113 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 15:45:20.135 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 2.754 seconds (JVM running for 4.905)
+2021-03-08 15:45:34.809 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 15:45:34.903 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:45:34.903 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:45:34.903 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:45:34.904 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:45:34.904 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@39720796, UpdateCategoryReq(name=鸭货, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:45:34.919 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+2021-03-08 15:45:58.465 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/adminLogin
+2021-03-08 15:45:58.465 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 15:45:58.466 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:45:58.466 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.adminLogin
+2021-03-08 15:45:58.466 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [qianxu, 12345678, org.apache.catalina.session.StandardSessionFacade@39720796]
+2021-03-08 15:45:58.516 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 15:45:59.219 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 15:45:59.313 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":5,"username":"qianxu","password":null,"personailzedSignature":"Hello World","role":2,"createTime":1615046358000,"updateTime":1615046396000}}
+2021-03-08 15:46:06.193 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:46:06.193 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:46:06.193 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:46:06.194 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:46:06.194 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@39720796, UpdateCategoryReq(name=鸭货, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:47:48.181 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:47:48.181 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:47:48.182 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:47:48.182 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:47:48.182 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@39720796, UpdateCategoryReq(name=鸭货1, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:48:04.175 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:48:04.175 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:48:04.175 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:48:04.176 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:48:04.176 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@39720796, UpdateCategoryReq(name=鸭货1, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:49:55.351 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 20204 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 15:49:55.354 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 15:49:56.447 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 15:49:56.448 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 15:49:56.449 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 15:49:56.531 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 15:49:57.155 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 15:49:57.443 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 15:49:57.457 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 15:49:57.486 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 15:49:57.860 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 15:49:57.887 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 2.773 seconds (JVM running for 5.009)
+2021-03-08 15:50:08.964 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 15:50:09.057 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:50:09.057 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:50:09.057 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:50:09.058 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:50:09.058 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@24746b22, UpdateCategoryReq(id=5, name=鸭货1, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:50:09.074 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+2021-03-08 15:50:14.674 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/adminLogin
+2021-03-08 15:50:14.675 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 15:50:14.675 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:50:14.675 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.adminLogin
+2021-03-08 15:50:14.675 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [qianxu, 12345678, org.apache.catalina.session.StandardSessionFacade@24746b22]
+2021-03-08 15:50:14.705 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 15:50:15.406 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 15:50:15.489 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":5,"username":"qianxu","password":null,"personailzedSignature":"Hello World","role":2,"createTime":1615046358000,"updateTime":1615046396000}}
+2021-03-08 15:50:17.552 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:50:17.552 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:50:17.552 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:50:17.552 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:50:17.553 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@24746b22, UpdateCategoryReq(id=5, name=鸭货1, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:53:39.052 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 16232 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 15:53:39.056 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 15:53:40.128 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 15:53:40.128 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 15:53:40.129 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 15:53:40.207 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 15:53:40.828 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 15:53:41.122 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 15:53:41.138 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 15:53:41.166 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 15:53:41.553 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 15:53:41.583 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 2.753 seconds (JVM running for 4.652)
+2021-03-08 15:53:48.723 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 15:53:48.754 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/adminLogin
+2021-03-08 15:53:48.754 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 15:53:48.754 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:53:48.756 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.adminLogin
+2021-03-08 15:53:48.756 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [qianxu, 12345678, org.apache.catalina.session.StandardSessionFacade@557505fe]
+2021-03-08 15:53:48.783 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 15:53:49.454 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 15:53:49.548 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":5,"username":"qianxu","password":null,"personailzedSignature":"Hello World","role":2,"createTime":1615046358000,"updateTime":1615046396000}}
+2021-03-08 15:53:52.559 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:53:52.559 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:53:52.559 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:53:52.559 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:53:52.559 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@557505fe, UpdateCategoryReq(id=5, name=鸭货1, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:53:52.711 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+2021-03-08 15:54:06.524 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/update
+2021-03-08 15:54:06.525 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : PUT
+2021-03-08 15:54:06.525 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 15:54:06.525 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.updateCategory
+2021-03-08 15:54:06.525 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@557505fe, UpdateCategoryReq(id=5, name=鸭货, type=2, parentId=null, orderNum=null)]
+2021-03-08 15:54:06.651 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+2021-03-08 16:14:23.707 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 3140 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 16:14:23.710 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 16:14:25.081 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 16:14:25.082 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 16:14:25.082 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 16:14:25.155 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 16:14:25.814 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 16:14:26.106 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 16:14:26.119 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 16:14:26.150 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 16:14:26.563 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 16:14:26.589 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 3.109 seconds (JVM running for 5.283)
+2021-03-08 16:15:17.180 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 10336 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 16:15:17.184 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 16:15:18.275 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 16:15:18.275 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 16:15:18.276 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 16:15:18.348 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 16:15:19.002 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 16:15:19.326 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 16:15:19.340 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 16:15:19.370 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 16:15:19.715 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 16:15:19.734 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 2.779 seconds (JVM running for 4.769)
+2021-03-08 16:15:24.247 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 16:15:43.913 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/adminLogin
+2021-03-08 16:15:43.913 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 16:15:43.913 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:15:43.914 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.adminLogin
+2021-03-08 16:15:43.914 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [qianxu, 12345678, org.apache.catalina.session.StandardSessionFacade@2db3e1b1]
+2021-03-08 16:15:43.943 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 16:15:44.627 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 16:15:44.719 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":5,"username":"qianxu","password":null,"personailzedSignature":"Hello World","role":2,"createTime":1615046358000,"updateTime":1615046396000}}
+2021-03-08 16:16:13.421 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 13364 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 16:16:13.426 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 16:16:14.679 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 16:16:14.680 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 16:16:14.681 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 16:16:14.757 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 16:16:15.428 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 16:16:15.709 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 16:16:15.721 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 16:16:15.750 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 16:16:16.069 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 16:16:16.089 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 2.902 seconds (JVM running for 4.82)
+2021-03-08 16:16:22.878 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 16:16:25.797 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/adminLogin
+2021-03-08 16:16:25.798 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 16:16:25.798 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:16:25.799 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.adminLogin
+2021-03-08 16:16:25.799 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [qianxu, 12345678, org.apache.catalina.session.StandardSessionFacade@c20a8d2]
+2021-03-08 16:16:25.829 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 16:16:26.463 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 16:16:26.563 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":5,"username":"qianxu","password":null,"personailzedSignature":"Hello World","role":2,"createTime":1615046358000,"updateTime":1615046396000}}
+2021-03-08 16:16:28.303 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/delete
+2021-03-08 16:16:28.303 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : DELETE
+2021-03-08 16:16:28.303 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:16:28.303 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.deleteCategory
+2021-03-08 16:16:28.303 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 16:16:28.307 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : null
+2021-03-08 16:16:32.709 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/user/logout
+2021-03-08 16:16:32.709 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 16:16:32.709 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:16:32.709 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.Logout
+2021-03-08 16:16:32.709 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@c20a8d2]
+2021-03-08 16:16:32.713 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+2021-03-08 16:16:45.555 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/login
+2021-03-08 16:16:45.555 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 16:16:45.555 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:16:45.555 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.login
+2021-03-08 16:16:45.555 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [qianxu, 12345678, org.apache.catalina.session.StandardSessionFacade@c20a8d2]
+2021-03-08 16:16:45.621 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":5,"username":"qianxu","password":null,"personailzedSignature":"Hello World","role":2,"createTime":1615046358000,"updateTime":1615046396000}}
+2021-03-08 16:16:48.586 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/delete
+2021-03-08 16:16:48.586 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : DELETE
+2021-03-08 16:16:48.586 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:16:48.586 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.deleteCategory
+2021-03-08 16:16:48.587 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 16:16:48.587 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : null
+2021-03-08 16:16:51.409 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/user/logout
+2021-03-08 16:16:51.410 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 16:16:51.410 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:16:51.410 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.Logout
+2021-03-08 16:16:51.410 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [org.apache.catalina.session.StandardSessionFacade@c20a8d2]
+2021-03-08 16:16:51.412 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+2021-03-08 16:17:18.648 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/login
+2021-03-08 16:17:18.648 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 16:17:18.648 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:17:18.649 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.login
+2021-03-08 16:17:18.649 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [qian, 12345678, org.apache.catalina.session.StandardSessionFacade@c20a8d2]
+2021-03-08 16:18:14.784 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/login
+2021-03-08 16:18:14.784 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 16:18:14.784 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:18:14.784 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.login
+2021-03-08 16:18:14.784 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [qian, 12345678, org.apache.catalina.session.StandardSessionFacade@c20a8d2]
+2021-03-08 16:18:14.850 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":2,"username":"qian","password":null,"personailzedSignature":null,"role":1,"createTime":1615022231000,"updateTime":1615191490000}}
+2021-03-08 16:25:42.176 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 16860 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 16:25:42.181 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 16:25:43.414 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 16:25:43.415 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 16:25:43.415 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 16:25:43.493 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 16:25:44.231 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 16:25:44.553 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 16:25:44.567 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 16:25:44.599 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 16:25:44.964 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 16:25:44.993 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 3.141 seconds (JVM running for 5.404)
+2021-03-08 16:26:47.299 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 16:29:04.263 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/adminLogin
+2021-03-08 16:29:04.263 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 16:29:04.263 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:29:04.264 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.adminLogin
+2021-03-08 16:29:04.264 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [qianxu, 12345678, org.apache.catalina.session.StandardSessionFacade@5906a9ba]
+2021-03-08 16:29:04.295 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 16:29:04.975 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 16:29:05.063 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":5,"username":"qianxu","password":null,"personailzedSignature":"Hello World","role":2,"createTime":1615046358000,"updateTime":1615046396000}}
+2021-03-08 16:29:16.495 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/delete
+2021-03-08 16:29:16.496 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : DELETE
+2021-03-08 16:29:16.496 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:29:16.496 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.deleteCategory
+2021-03-08 16:29:16.496 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [6]
+2021-03-08 16:29:16.633 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+2021-03-08 16:47:00.808 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 13664 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 16:47:00.816 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 16:47:03.396 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 16:47:03.398 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 16:47:03.399 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 16:47:03.511 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 16:47:04.948 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 16:47:05.390 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 16:47:05.418 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 16:47:05.458 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 16:47:06.136 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 16:47:06.162 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 5.879 seconds (JVM running for 9.116)
+2021-03-08 16:48:09.272 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 16:48:13.998 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/adminLogin
+2021-03-08 16:48:13.998 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : POST
+2021-03-08 16:48:13.998 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:48:13.999 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.UserController.adminLogin
+2021-03-08 16:48:14.000 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [qianxu, 12345678, org.apache.catalina.session.StandardSessionFacade@198b95a9]
+2021-03-08 16:48:14.032 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 16:48:14.749 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 16:48:14.850 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":5,"username":"qianxu","password":null,"personailzedSignature":"Hello World","role":2,"createTime":1615046358000,"updateTime":1615046396000}}
+2021-03-08 16:48:16.802 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/admin/category/list
+2021-03-08 16:48:16.802 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 16:48:16.802 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 16:48:16.802 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForAdmin
+2021-03-08 16:48:16.803 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : [1, 10]
+2021-03-08 16:48:16.977 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"total":5,"list":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000},{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000},{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000}],"pageNum":1,"pageSize":10,"size":5,"startRow":1,"endRow":5,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}
+2021-03-08 17:12:56.298 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 8200 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 17:12:56.301 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 17:12:57.399 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:12:57.399 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 17:12:57.400 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 17:12:57.475 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 17:12:58.179 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 17:12:58.576 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 17:12:58.594 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 17:12:58.623 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 17:12:58.940 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:12:58.961 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 2.892 seconds (JVM running for 4.898)
+2021-03-08 17:13:12.815 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 17:13:12.837 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:13:12.837 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:13:12.837 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:13:12.838 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:13:12.838 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:13:12.863 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 17:13:13.526 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 17:14:29.185 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 1220 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 17:14:29.189 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 17:14:30.278 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:14:30.278 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 17:14:30.279 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 17:14:30.355 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 17:14:31.057 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 17:14:31.395 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 17:14:31.409 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 17:14:31.441 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 17:14:31.853 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:14:31.878 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 2.92 seconds (JVM running for 4.915)
+2021-03-08 17:14:41.063 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 17:14:41.085 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:14:41.085 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:14:41.085 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:14:41.086 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:14:41.086 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:14:41.111 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 17:14:41.781 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 17:14:42.059 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:53:59.605 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 19308 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 17:53:59.610 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 17:54:01.196 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:54:01.196 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 17:54:01.197 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 17:54:01.283 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 17:54:02.144 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 17:54:02.700 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 17:54:02.715 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 17:54:02.745 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 17:54:03.166 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:54:03.199 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 3.864 seconds (JVM running for 6.051)
+2021-03-08 17:54:13.334 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 17:54:13.358 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:54:13.359 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:54:13.359 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:54:13.361 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:54:13.361 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:54:13.388 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 17:54:15.089 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 17:54:15.347 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:54:17.201 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:54:17.201 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:54:17.201 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:54:17.201 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:54:17.202 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:54:17.415 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:54:18.215 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:54:18.215 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:54:18.215 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:54:18.215 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:54:18.216 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:54:18.430 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:54:18.991 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:54:18.992 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:54:18.992 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:54:18.992 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:54:18.992 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:54:19.216 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:54:19.676 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:54:19.676 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:54:19.676 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:54:19.676 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:54:19.676 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:54:19.853 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:54:53.534 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:54:53.534 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:54:53.535 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:54:53.535 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:54:53.535 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:54:53.743 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:55:06.255 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:55:06.256 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:55:06.256 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:55:06.256 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:55:06.256 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:55:06.463 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:55:07.395 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:55:07.396 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:55:07.396 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:55:07.396 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:55:07.397 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:55:07.606 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:57:14.575 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 17868 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 17:57:14.579 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 17:57:16.495 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:57:16.496 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 17:57:16.497 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 17:57:16.587 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 17:57:17.696 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 17:57:18.332 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 17:57:18.348 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 17:57:18.384 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 17:57:18.826 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:57:18.864 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 4.588 seconds (JVM running for 7.01)
+2021-03-08 17:57:31.579 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 17:57:31.610 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:57:31.610 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:57:31.610 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:57:31.612 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:57:31.612 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:57:38.997 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 17:57:39.838 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 17:57:40.117 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:57:43.450 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:57:43.450 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:57:43.450 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:57:43.450 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:57:43.450 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:57:47.617 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:57:51.208 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:57:51.208 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:57:51.208 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:57:51.208 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:57:51.208 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:57:59.400 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:58:01.774 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:58:01.774 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:58:01.774 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:58:01.774 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:58:01.775 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:58:21.995 [INFO ] com.zaxxer.hikari.HikariDataSource.close[350 line] - qianxu_mall_datasource - Shutdown initiated...
+2021-03-08 17:58:22.013 [INFO ] com.zaxxer.hikari.HikariDataSource.close[352 line] - qianxu_mall_datasource - Shutdown completed.
+2021-03-08 17:58:28.047 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 20420 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 17:58:28.053 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 17:58:29.809 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:58:29.810 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 17:58:29.811 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 17:58:29.900 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 17:58:30.897 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 17:58:31.536 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 17:58:31.553 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 17:58:31.591 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 17:58:32.086 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:58:32.122 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 4.389 seconds (JVM running for 7.416)
+2021-03-08 17:58:39.221 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 17:58:39.254 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:58:39.254 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:58:39.254 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:58:39.256 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:58:39.256 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 17:58:41.945 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 17:58:43.655 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 17:58:43.921 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 17:58:45.274 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 17:58:45.275 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 17:58:45.275 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 17:58:45.275 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 17:58:45.275 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:03:20.391 [INFO ] com.zaxxer.hikari.HikariDataSource.close[350 line] - qianxu_mall_datasource - Shutdown initiated...
+2021-03-08 18:03:39.817 [INFO ] com.zaxxer.hikari.HikariDataSource.close[352 line] - qianxu_mall_datasource - Shutdown completed.
+2021-03-08 18:04:04.584 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 8840 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 18:04:04.588 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 18:04:05.929 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 18:04:05.930 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 18:04:05.930 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 18:04:06.011 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 18:04:06.827 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 18:04:07.354 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 18:04:07.366 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 18:04:07.395 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 18:04:07.905 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 18:04:07.942 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 3.591 seconds (JVM running for 5.924)
+2021-03-08 18:04:44.697 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 18:04:44.720 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:04:44.720 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:04:44.721 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:04:44.722 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:04:44.722 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:04:44.749 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 18:04:45.446 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 18:04:45.720 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:04:48.640 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:04:48.641 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:04:48.641 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:04:48.641 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:04:48.641 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:04:48.878 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:05:04.985 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:05:04.985 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:05:04.985 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:05:04.985 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:05:04.985 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:05:05.223 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:05:05.998 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:05:05.998 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:05:05.998 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:05:05.999 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:05:05.999 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:05:06.223 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:05:20.234 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:05:20.234 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:05:20.234 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:05:20.235 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:05:20.235 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:05:20.459 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:05:21.484 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:05:21.484 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:05:21.484 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:05:21.484 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:05:21.485 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:05:21.705 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:05:55.274 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:05:55.275 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:05:55.275 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:05:55.275 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:05:55.275 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:05:55.499 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:05:56.267 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:05:56.267 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:05:56.267 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:05:56.267 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:05:56.268 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:05:56.491 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:05:57.162 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:05:57.162 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:05:57.163 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:05:57.163 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:05:57.163 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:05:57.386 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:05:57.893 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:05:57.894 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:05:57.894 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:05:57.894 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:05:57.894 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:05:58.116 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:07:42.753 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 7044 (D:\Development\IdeaProject\qianxu-mall\target\classes started by 风 in D:\Development\IdeaProject\qianxu-mall)
+2021-03-08 18:07:42.757 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-08 18:07:44.099 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 18:07:44.100 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-08 18:07:44.100 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-08 18:07:44.184 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-08 18:07:45.026 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 18:07:45.566 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-08 18:07:45.578 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-08 18:07:45.607 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-08 18:07:45.953 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 18:07:45.977 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 3.466 seconds (JVM running for 5.781)
+2021-03-08 18:07:55.580 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 18:07:55.604 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:07:55.605 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:07:55.605 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:07:55.606 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:07:55.606 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:07:55.691 [INFO ] io.lettuce.core.EpollProvider.<clinit>[68 line] - Starting without optional epoll library
+2021-03-08 18:07:55.693 [INFO ] io.lettuce.core.KqueueProvider.<clinit>[70 line] - Starting without optional kqueue library
+2021-03-08 18:07:56.883 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[110 line] - qianxu_mall_datasource - Starting...
+2021-03-08 18:07:57.599 [INFO ] com.zaxxer.hikari.HikariDataSource.getConnection[123 line] - qianxu_mall_datasource - Start completed.
+2021-03-08 18:07:58.098 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
+2021-03-08 18:07:59.172 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/category/list
+2021-03-08 18:07:59.173 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-08 18:07:59.173 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-08 18:07:59.173 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CategoryController.listCategoryForCustomer
+2021-03-08 18:07:59.173 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
+2021-03-08 18:07:59.240 [INFO ] com.qianxu.mall.filter.WebLogAspect.doAfterReturn[51 line] - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1615103632000,"updateTime":1615104211000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":1,"orderNum":1,"createTime":1615103807000,"updateTime":1615104212000,"childCategory":[]}]},{"id":2,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1615103734000,"updateTime":1615104211000,"childCategory":[]},{"id":3,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1615103748000,"updateTime":1615104212000,"childCategory":[{"id":5,"name":"鸭货","type":2,"parentId":3,"orderNum":1,"createTime":1615104268000,"updateTime":1615190047000,"childCategory":[]}]}]}
