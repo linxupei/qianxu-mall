@@ -149,4 +149,43 @@
       update_time = #{updateTime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="selectByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"/>
+    from qianxu_mall_product
+    where name = #{name, jdbcType=VARCHAR}
+  </select>
+  <update id="batchUpdateSellStatus">
+    update qianxu_mall_product
+    set status = #{sellStatus}
+    where id in
+    <foreach collection="ids" item="id" separator="," open="(" close=")">
+        #{id}
+    </foreach>
+  </update>
+  <select id="selectListForAdmin" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"/>
+    from qianxu_mall_product
+    order by update_time desc
+  </select>
+
+  <select id="selectList" parameterType="com.qianxu.mall.model.query.ProductListQuery" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"/>
+    from qianxu_mall_product
+    <where>
+      <if test="query.keyword != null">
+        and name like #{query.keyword}
+      </if>
+      <if test="query.categoryIds != null">
+        and category_id in
+        <foreach collection="query.categoryIds" item="item" separator="," open="(" close=")">
+          #{item}
+        </foreach>
+      </if>
+      and status = 1
+    </where>
+    order by update_time desc
+  </select>
 </mapper>

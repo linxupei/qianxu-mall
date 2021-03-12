@@ -4,6 +4,7 @@ import com.github.pagehelper.PageInfo;
 import com.qianxu.mall.model.pojo.Category;
 import com.qianxu.mall.model.request.AddCategoryReq;
 import com.qianxu.mall.model.vo.CategoryVO;
+import org.springframework.cache.annotation.Cacheable;
 
 import java.util.List;
 
@@ -22,5 +23,6 @@ public interface CategoryService {
 
     PageInfo listForAdmin(Integer pageNum, Integer pageSize);
 
-    List<CategoryVO> listCategoryForCustomer();
+    @Cacheable(value = "listCategoryForCustomer")
+    List<CategoryVO> listCategoryForCustomer(Integer parentId);
 }
