@@ -21,7 +21,9 @@ public enum QianxuMallExceptionEnum {
     REQUEST_PARAM_ERROR(100012, "参数错误"),
     DELETE_FAILED(100013, "删除失败"),
     MKDIR_FAILED(100014, "文件夹创建失败"),
-    UPLOAD_FAILED(100014, "图片上床失败失败"),
+    UPLOAD_FAILED(100015, "图片上传失败失败"),
+    NOT_SALE(100016, "商品状态不可售"),
+    NOT_ENOUGH(100016, "商品库存不足"),
     SYSTEM_ERROR(20000, "系统异常");
 
     /**
