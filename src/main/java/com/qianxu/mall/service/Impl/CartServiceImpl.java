@@ -67,9 +67,11 @@ public class CartServiceImpl implements CartService {
      */
     private void validProduct(Integer productId, Integer count) {
         Product product = productMapper.selectByPrimaryKey(productId);
+        //判断商品是否存在, 商品是否上架
         if (product == null || !product.getStatus().equals(Constant.SaleStatus.SALE)) {
             throw new QianxuMallException(QianxuMallExceptionEnum.NOT_SALE);
         }
+        //判断商品库存
         if (count > product.getStock()) {
             throw new QianxuMallException(QianxuMallExceptionEnum.NOT_ENOUGH);
         }

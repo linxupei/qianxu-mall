@@ -23,7 +23,12 @@ public enum QianxuMallExceptionEnum {
     MKDIR_FAILED(100014, "文件夹创建失败"),
     UPLOAD_FAILED(100015, "图片上传失败失败"),
     NOT_SALE(100016, "商品状态不可售"),
-    NOT_ENOUGH(100016, "商品库存不足"),
+    NOT_ENOUGH(100017, "商品库存不足"),
+    CART_EMPTY(100018, "购物车已勾选的商品为空"),
+    NOT_ENUM(100019, "未找到对应枚举类"),
+    NO_ORDER(100020, "订单不存在"),
+    NOT_YOUR_ORDER(100021, "订单不属于你"),
+    WRONG_ORDER_STATUS(100022, "订单状态不符"),
     SYSTEM_ERROR(20000, "系统异常");
 
     /**
