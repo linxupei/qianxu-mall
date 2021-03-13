@@ -11,7 +11,8 @@
 
         <!-- 日志默认存放的位置,可以设置为项目根路径下,也可指定绝对路径 -->
         <!-- 存放路径一:通用路径,window平台 -->
-        <property name="basePath">D:/Development/IdeaProject/qianxu-mall/logs</property>
+<!--        <property name="basePath">D:/Development/IdeaProject/qianxu-mall/logs</property>-->
+        <property name="basePath">/usr/local/logs</property>
         <!-- 存放路径二:web工程专用,java项目没有这个变量,需要删掉,否则会报异常,这里把日志放在web项目的根目录下 -->
         <!-- <property name="basePath">${web:rootDir}/${logFileName}</property> -->
         <!-- 存放路径三:web工程专用,java项目没有这个变量,需要删掉,否则会报异常,这里把日志放在tocmat的logs目录下 -->

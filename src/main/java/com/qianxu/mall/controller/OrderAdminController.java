@@ -27,7 +27,7 @@ public class OrderAdminController {
     }
 
     @ApiOperation("支付订单")
-    @PutMapping({"pay"})
+    @GetMapping({"pay"})
     public ApiRestResponse pay(@RequestParam String orderNo) {
         orderService.pay(orderNo);
         return ApiRestResponse.success();

@@ -609,3 +609,25 @@
 2021-03-13 21:18:07.376 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith[40 line] - Generating unique operation named: detailUsingGET_1
 2021-03-13 21:18:07.402 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith[40 line] - Generating unique operation named: listUsingGET_3
 2021-03-13 21:18:08.016 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplicationTests in 11.115 seconds (JVM running for 14.253)
+2021-03-13 21:36:29.887 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[55 line] - Starting MallApplication on DESKTOP-JLJRHT7 with PID 16000 (D:\Development\IdeaProject\qianxu-mall\target\classes started by ·ç in D:\Development\IdeaProject\qianxu-mall)
+2021-03-13 21:36:29.893 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[651 line] - No active profile set, falling back to default profiles: default
+2021-03-13 21:36:32.031 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-13 21:36:32.031 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2021-03-13 21:36:32.032 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-13 21:36:32.141 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2021-03-13 21:36:33.629 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods[69 line] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-13 21:36:34.449 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[160 line] - Context refreshed
+2021-03-13 21:36:34.474 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start[163 line] - Found 1 custom documentation plugin(s)
+2021-03-13 21:36:34.529 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan[41 line] - Scanning for api listing references
+2021-03-13 21:36:35.213 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith[40 line] - Generating unique operation named: listUsingGET_1
+2021-03-13 21:36:35.266 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith[40 line] - Generating unique operation named: listUsingGET_2
+2021-03-13 21:36:35.307 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith[40 line] - Generating unique operation named: detailUsingGET_1
+2021-03-13 21:36:35.323 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith[40 line] - Generating unique operation named: listUsingGET_3
+2021-03-13 21:36:35.567 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-13 21:36:35.615 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[61 line] - Started MallApplication in 6.189 seconds (JVM running for 10.384)
+2021-03-13 21:37:35.892 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-13 21:41:52.271 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[41 line] - URL : http://localhost:8080/cart/list
+2021-03-13 21:41:52.271 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[42 line] - HTTP_METHOD : GET
+2021-03-13 21:41:52.271 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[43 line] - IP : 0:0:0:0:0:0:0:1
+2021-03-13 21:41:52.273 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[44 line] - CLASS_METHOD : com.qianxu.mall.controller.CartController.list
+2021-03-13 21:41:52.274 [INFO ] com.qianxu.mall.filter.WebLogAspect.doBefore[46 line] - ARGS : []
